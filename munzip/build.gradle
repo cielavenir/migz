@@ -12,16 +12,10 @@ repositories {
 }
 
 apply plugin: 'idea'
-apply plugin: 'java'
 apply plugin: 'application'
 
 application {
   mainClassName = 'com.linkedin.migz.MUnzip'
-}
-
-java {
-  sourceCompatibility = JavaVersion.VERSION_1_8
-  targetCompatibility = JavaVersion.VERSION_1_8
 }
 
 artifacts {
